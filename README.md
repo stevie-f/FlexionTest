@@ -2,7 +2,7 @@
 Billing Integration Test for Flexion
 
 This software is a Java Console application to make it easy to test. FlexionTest2.java contains the main method.
-The implementation of the Integration is the IntegrationImpl class file.
+The implementation of the Integration is the IntegrationImpl class file inside src/flexiontest2.
 
 The IntegrationTestRunner performs an automated test but does not try to pass null for paramaters.
 Interestingly, the buy REST operation accepts null for itemID.

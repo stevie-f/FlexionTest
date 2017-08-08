@@ -14,7 +14,7 @@ import org.json.JSONObject;
 
 /**
  *
- * @author stevie
+ * @author SRI
  */
 public class IntegrationImpl implements Integration {
     private final String developer="SRI";
@@ -39,7 +39,7 @@ public class IntegrationImpl implements Integration {
         }
         
         return null;
-    }//end method (buy)
+    }
 
     @Override
     public List<Purchase> getPurchases() {

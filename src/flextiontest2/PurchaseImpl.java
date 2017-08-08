@@ -20,7 +20,7 @@ public class PurchaseImpl implements Purchase {
      *
      * @param ID: Purchase ID
      * @param consumed: Whether Purchase is consumed
-     * @param itemID: Whether this Purchase has benn consumed
+     * @param itemID: Whether this Purchase has been consumed
      */
     public PurchaseImpl(String ID, Boolean consumed, String itemID) {
         this.ID = ID;

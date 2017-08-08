@@ -43,7 +43,7 @@ public class SimpleRest {
                 StringBuilder sb=new StringBuilder();
 
 		while ((output = br.readLine()) != null) {
-			//System.out.println(output);
+		
                         sb.append(output);
                         
 		}
@@ -57,6 +57,6 @@ public class SimpleRest {
              System.out.println(e.getMessage());
 	 }
             return null;
-	}//end method
+	}
     }
 
